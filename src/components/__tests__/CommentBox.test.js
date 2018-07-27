@@ -3,6 +3,8 @@ import { mount } from 'enzyme';
 
 import Root from 'Root';
 import CommentBox from 'components/CommentBox';
+// TODO:
+// fix tests
 
 let wrapped;
 beforeEach(() => {
