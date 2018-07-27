@@ -21,7 +21,6 @@ afterEach(() => {
 });
 
 it('can fetch a list of comments and display them', (done) => {
-  //render the *entire* app
   const wrapped = mount(
     <Root>
       <App />
